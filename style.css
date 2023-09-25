@@ -1,0 +1,53 @@
+.icon {
+    /* display: block;  */
+    width: 50px; 
+    height: 50px; 
+    text-align:center; 
+    line-height:3rem; 
+    font-size : 2.5rem;
+    color :rgb(255, 255, 255);
+font-weight: bold;
+margin :2rem;
+float:right;
+border-radius: 50%;
+background-color: rgb(66, 68, 68);}
+.container1{
+    display: flex;
+    flex-direction: column;
+    margin :1.5rem;
+}
+.container2{
+    /* padding-left: 20px; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+align-items: center;
+}
+
+.img1{
+    border-radius: 50%;
+    width:90%;
+    height: 90%;
+
+}
+.reflex{
+    font-size: 3rem;
+color: rgb(74, 75, 75);
+}
+.lorem1{
+    width:30vw;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color:rgb(118, 121, 125)
+}
+.btn1{
+    width: 10rem; 
+    height: 4rem; 
+    background-color:rgb(255, 255, 255); /* تحديد لون الخلفية */
+    color:rgb(104, 106, 110); /* تحديد لون النص */
+    border:1;
+    border-color:rgb(102, 104, 107);
+    border-radius: 40px; /* تحديد حواف مستديرة */
+    font-size: 18px; /* تحديد حجم النص */
+    cursor: pointer;
+}
