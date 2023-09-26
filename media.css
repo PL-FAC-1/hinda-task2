@@ -1,0 +1,59 @@
+@media screen and (max-width: 600px) {
+.container2{
+    display: flex;
+    flex-direction: column;
+}
+.icon1 {
+margin: 2%}
+.lorem1{
+    width:60vw;
+    line-height: 1.2rem;
+    font-size: 1em;
+}
+.btn1{
+    width: 80vw; 
+    height: 2rem; 
+    font-size: 0.8rem; 
+}
+.container3{
+font-size: 0.8rem;
+}
+.lorem2{
+    width:70vw;
+    line-height: 2rem;
+    font-size: 0.8rem;
+}
+.icon-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap ;
+justify-content: center;}
+  
+        .icon2 {
+     
+            width:3rem; 
+            height: 3rem; 
+            font-size : 1.8rem;
+padding-bottom: 0.2rem;
+        margin : 0.5rem
+    }
+    .line {
+        width: 0rem; 
+        height: 0px; 
+        background-color: black; 
+        /* margin: 50px 0 0px 0 ; */
+    }
+    .lorem2{
+        width:70vw;
+        line-height: 1rem;
+        font-size: .8rem;
+    }
+    .btn2{
+        width: 80vw;
+        height: 10%; 
+        margin-top: 1.5rem;
+ 
+
+
+    }
+}
