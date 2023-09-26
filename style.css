@@ -60,14 +60,14 @@ color: rgb(74, 75, 75);
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     font-size: 1.5rem;
     
 }
 
 .custom-line {
-    width: 1em; 
-    height: 10em; 
+    width: 4em; 
+    height: 1px; 
     background-color: black;}
     .icon-container{
         display: flex;
@@ -99,7 +99,7 @@ padding-top: 1rem;
         background-color: black; 
         margin: 50px 0 0px 0 ;
     }
-.lorem2{
+.lorem2 {
     width:70vw;
     line-height: 2rem;
     font-size: 1.5rem;
@@ -115,7 +115,51 @@ padding-top: 1rem;
     border-radius: 40px; 
     font-size: 18px; 
     cursor: pointer;
-}
-
-   
     
+}
+.container4{
+    /* background-color: rgb(228, 229, 231); */
+    /* height:fit-content; */
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    
+}
+/* p{
+    width:40vw;
+    text-align: center;
+    
+} */
+.consection3{
+    display: flex;
+    width: 80vw;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.lorem3{
+   text-align:center;
+   width: 40vw;
+   color:rgb(118, 121, 125)
+}
+.loremsection3{
+    width:40vw;
+    line-height: 2.5rem;
+    font-size: 1.8rem;
+    color:rgb(118, 121, 125);
+}
+.smallContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.consection3b{
+    display: flex;
+    flex-direction: column;
+align-items: center;
+}
+img{
+    width:80%;
+}

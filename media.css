@@ -1,4 +1,11 @@
 @media screen and (max-width: 600px) {
+    .container1{
+        height: 70vh;
+    }
+    .img1{
+        height: 80%;
+        width: 100%;
+    }
 .container2{
     display: flex;
     flex-direction: column;
@@ -16,12 +23,12 @@ margin: 2%}
     font-size: 0.8rem; 
 }
 .container3{
-font-size: 0.8rem;
+font-size: 1.2rem;
 }
 .lorem2{
     width:70vw;
-    line-height: 2rem;
-    font-size: 0.8rem;
+    line-height: 4rem;
+    font-size: 1.8rem;
 }
 .icon-container{
     display: flex;
@@ -49,11 +56,39 @@ padding-bottom: 0.2rem;
         font-size: .8rem;
     }
     .btn2{
-        width: 80vw;
-        height: 10%; 
+        width: 70vw;
+        height: 7%; 
         margin-top: 1.5rem;
  
 
 
     }
+    .lorem3{
+        width:70vw;
+line-height: 1.8rem;;    }
+    .consection3{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .consection3c{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .loremsection3{
+        width:60vw;
+        line-height: 1.4rem;
+        font-size: 1.2rem;
+    }
+    .smallContainer{
+align-items: center;
+margin-bottom: 2rem;
+
 }
+.img{
+    width: 80vw;
+    margin-bottom: 1.5rem;
+}
+.custom-line {
+    width: 2em; 
+}}
