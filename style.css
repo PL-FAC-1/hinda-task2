@@ -138,6 +138,7 @@ padding-top: 1rem;
     width: 80vw;
     flex-direction: row;
     justify-content: space-around;
+    margin-bottom: 1.5rem;
 }
 .lorem3{
    text-align:center;
@@ -154,12 +155,112 @@ padding-top: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /* margin: 5rem 4rem;
+    height: 60vh; */
+
 }
 .consection3b{
     display: flex;
     flex-direction: column;
 align-items: center;
+
 }
 img{
     width:80%;
+}
+
+.section4{
+    background-image: url('img/img5.jpg');
+    background-size: cover;
+    height: 65vh;
+    width:100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;}
+    .consection4{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    width: 70vw;
+    height: 50vh;
+
+}
+.btn3{
+    color: aliceblue;
+    background-color: transparent;
+    border-color: aliceblue;
+}
+.line2{
+    width: 5em;
+    background-color: aliceblue;
+    
+}
+.lorem4{
+    text-align:center;
+font-size: 1.8rem;
+width: 40vw;
+color: aliceblue;
+}
+ .consection5{
+    height: 90vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row; 
+    justify-content: center;
+    background-color: rgb(228, 229, 231);
+
+
+
+}
+.icon-container2{
+    display: flex;
+    flex-direction: row; 
+    margin-left: 1rem;
+}
+.icon2b{
+    width:3.8rem; 
+    height: 3.8rem; 
+    font-size : 1.8rem;
+    margin-left: 1rem;
+
+    background-color: transparent;
+}
+.consection5b{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: left;
+    height: 60vh;
+    margin: 5rem 4rem;
+
+
+}
+.input1{
+    width: 12rem;
+    height: 2.5rem;
+    margin: 1rem 1rem 1rem 0rem;
+    border: 1;
+    border-radius: 10%;
+    border-color:rgb(201, 203, 205);
+    font-size: 1rem;
+    color: rgb(166, 168, 169);
+    padding: 0.3rem;
+}
+#message{
+    width:27rem;
+    height: 6rem;
+    margin-bottom: 2rem;
+    margin-top: 1.4rem;
+    font-size: 1.5rem;
+    color: rgb(166, 168, 169);
+    padding-top: 0.5rem;
+}
+.btn4{
+    width: 12rem; 
+    height: 3rem;
+    font-size: 1rem;
+
 }
