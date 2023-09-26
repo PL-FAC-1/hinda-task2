@@ -1,4 +1,5 @@
-.icon {
+
+.icon1 {
     /* display: block;  */
     width: 50px; 
     height: 50px; 
@@ -15,6 +16,7 @@ background-color: rgb(66, 68, 68);}
     display: flex;
     flex-direction: column;
     margin :1.5rem;
+    height: 90vh;
 }
 .container2{
     /* padding-left: 20px; */
@@ -37,17 +39,83 @@ color: rgb(74, 75, 75);
 .lorem1{
     width:30vw;
     line-height: 2rem;
-    font-size: 1.5rem;
+    font-size: 1.5em;
     color:rgb(118, 121, 125)
 }
 .btn1{
     width: 10rem; 
     height: 4rem; 
-    background-color:rgb(255, 255, 255); /* تحديد لون الخلفية */
-    color:rgb(104, 106, 110); /* تحديد لون النص */
+    background-color:rgb(255, 255, 255); 
+    color:rgb(104, 106, 110); 
     border:1;
-    border-color:rgb(102, 104, 107);
-    border-radius: 40px; /* تحديد حواف مستديرة */
-    font-size: 18px; /* تحديد حجم النص */
+    border-color:rgb(160, 161, 163);
+    border-radius: 40px; 
+    font-size: 18px; 
     cursor: pointer;
 }
+.container3{
+    background-color: rgb(228, 229, 231);
+    height: 70vh;
+    padding: 5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    
+}
+
+.custom-line {
+    width: 1em; 
+    height: 10em; 
+    background-color: black;}
+    .icon-container{
+        display: flex;
+        flex-direction: row;
+        justify-content: baseline;
+        width: 60vw;
+        
+            }
+    .icon2 {
+     
+    width:5rem; 
+    height: 5rem; 
+    text-align:center; 
+    line-height:3rem; 
+    font-size : 2.5rem;
+    color : rgb(66, 68, 68);
+font-weight: bold;
+/* margin :2rem; */
+border: solid;
+border-radius: 50%;
+border-color: rgb(77, 76, 75);
+background-color:aliceblue;
+padding-top: 1rem;
+    }
+
+    .line {
+        width: 5rem; 
+        height: 1px; 
+        background-color: black; 
+        margin: 50px 0 0px 0 ;
+    }
+.lorem2{
+    width:70vw;
+    line-height: 2rem;
+    font-size: 1.5rem;
+    color:rgb(118, 121, 125)
+} 
+.btn2{
+    width: 8rem; 
+    height: 3rem; 
+    background-color:rgb(228, 229, 231); 
+    color: rgb(131, 132, 134); 
+    border:1;
+    border-color:rgb(104, 106, 110);
+    border-radius: 40px; 
+    font-size: 18px; 
+    cursor: pointer;
+}
+
+   
+    
