@@ -30,23 +30,23 @@ background-color: rgb(66, 68, 68);}
 align-items: center;
 }
 
-.img1{
+.container2__img1{
     border-radius: 50%;
     width:90%;
     height: 90%;
 
 }
-.reflex{
+.container2__reflex{
     font-size: 3rem;
 color: rgb(74, 75, 75);
 }
-.lorem1{
+.container2__lorem1{
     width:30vw;
     line-height: 2rem;
     font-size: 1.5em;
     color:rgb(118, 121, 125)
 }
-.btn1{
+.container2__btn1{
     width: 10rem; 
     height: 4rem; 
     background-color:rgb(255, 255, 255); 
