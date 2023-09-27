@@ -1,4 +1,7 @@
-
+body{
+    display: flex;
+    flex-direction: column;
+}
 .icon1 {
     /* display: block;  */
     width: 50px; 
@@ -12,6 +15,7 @@ margin :2rem;
 float:right;
 border-radius: 50%;
 background-color: rgb(66, 68, 68);}
+
 .container1{
     display: flex;
     flex-direction: column;
@@ -81,7 +85,7 @@ color: rgb(74, 75, 75);
     width:5rem; 
     height: 5rem; 
     text-align:center; 
-    line-height:3rem; 
+    line-height:4rem; 
     font-size : 2.5rem;
     color : rgb(66, 68, 68);
 font-weight: bold;
@@ -90,7 +94,7 @@ border: solid;
 border-radius: 50%;
 border-color: rgb(77, 76, 75);
 background-color:aliceblue;
-padding-top: 1rem;
+padding: 0.5rem 0.5rem 0.5rem rem;
     }
 
     .line {
@@ -100,7 +104,7 @@ padding-top: 1rem;
         margin: 50px 0 0px 0 ;
     }
 .lorem2 {
-    width:70vw;
+    width: 60vw;
     line-height: 2rem;
     font-size: 1.5rem;
     color:rgb(118, 121, 125)
@@ -201,12 +205,13 @@ img{
 .lorem4{
     text-align:center;
 font-size: 1.8rem;
-width: 40vw;
+line-height: 2.8rem;
+width: 50vw;
 color: aliceblue;
 }
  .consection5{
     height: 90vh;
-    width: 100vw;
+    /* width: 100vw; */
     display: flex;
     flex-direction: row; 
     justify-content: center;
@@ -225,6 +230,13 @@ color: aliceblue;
     height: 3.8rem; 
     font-size : 1.8rem;
     margin-left: 1rem;
+
+
+
+
+
+
+
 
     background-color: transparent;
 }
